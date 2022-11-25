@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="imagem/png" href="../imagens/favicon.jpg" />
+  <title>Compact</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/af5182bac3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<style>
+  .main {
+    background-image: url(img/capa1.png);
+    background-size: cover;
+  }
+</style>
+
+<body>
+  <header>
+    <!--INICIO CABEÇALHO-->
+    <section class="container-fluid" style="background-color:   #a4acbf9d ;">
+      <div class="container-fluid " style="background-color:     #a4acbf9d;">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" width="80" height="80/"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="servico.html">Sobre o serviço</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contato.html">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white " href="login.html"> <strong>Entrar</strong></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" style="color: mediumpurple;" href="cadastro.html"><strong> Lista de espera</strong></a>
+              </li>
+            </ul>
+          </div>
+      </div>
+      </nav>
+  </header>
+  <!--FIM CABEÇALHO-->
+
+  <!--INICIO Libras-->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <div class="enabled" id="vlibras">
+    <div class="active" id="vlibras-b"></div>
+    <div id="vlibras-w">
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <!-----------------------------------Final Libras------------------------------------------>
+
+  <!-------------------------------INICIO PRIMEIRO CONTEÚDO---------------------------------->
+  <section class="main">
+    <div class="meio">
+      <div class="meio-dois">
+        <div class="container text-center">
+          <div class="row justify-content-evenly">
+            <div class="col-sm-5  ">
+              <h1 class="meio-conteudo-h1">Obtenha</h1>
+            </div>
+            <div class="col-sm-5 pt-5">
+              <div id="text-dinamico">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container text-center">
+          <div class="row justify-content-center">
+            <div class="col-6 col-sm-12">
+              <p class="meio-conteudo-p text-break"> Ferramentas simples e poderosas para otimizar o seu dia a dia.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------------------FIM PRIMEIRO CONTEÚDO---------------------------------->
+  <!----------------------------------INICIO Cookie------------------------------->
+
+  <div class="cookie">
+    <div class="alert alert-dismissible text-center cookiealert show" role="alert">
+      <div class="cookiealert-container">
+        Usamos cookies para garantir a melhor experiência em nosso site. <a href="/cookies" style="color: mediumpurple;">Saiba mais</a>
+
+        <button type="button" id="botao" class="btn btn-success btn-sm acceptcookies" aria-label="close">
+          Aceito
+        </button>
+      </div>
+    </div>
+  </div>
+  <!----------------------------------FIM Cookie------------------------------->
+  <!-------------------------------INICIO SEGUNDO CONTEÚDO---------------------------------->
+  <section class="conteudo-dois">
+    <div class="conteud-dois">
+      <div class="conteud-dois--">
+        <div class="container text-center">
+          <div class="columns my-4">
+            <div class="col">
+              <div class="col-12 col-sm-12">
+                <h2 class="conteud-dois-h2"><strong>Praticidade para o seu dia.</strong></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="conteudo-dois-dois">
+        <div class="row justify-content-evenly">
+          <div class="col-sm-4 ">
+            <h2 class="conteudo-dois-titulo "> O que é?</h2>
+            <p class="conteudo-dois-p">A compactação dos arquivos de imagem de um site é uma das maneiras mais rápidas e fáceis de carregar o site mais rapidamente para os usuários. Junte-se a nós enquanto exploramos uma nova ferramenta que pode tornar o processo de compactação mais eficaz e acessível do que nunca: compact.
+            
+            </p>
+            <a href="servico.html" class="conteudo-dois-a">SAIBA MAIS ></a>
+          </div>
+          <div class="col-sm-4 ">
+            <h2 class="conteudo-dois-titulo ">A Compact</h2>
+            <p class="conteudo-dois-p">A Compact é uma empresa pensada na compressão de imagens através do nosso aplicativo. 
+              São oferecidos diferentes opções de efeitos, designers e ações nas imagens.
+              Nosso aplicativo veio pra dinamizar suas imagens e lhe oferecer o designer perfeito.
+              Você pode usar o Compact carregando sua página da Web (https://compact.app) em qualquer um dos principais navegadores da Web.
+            </p>
+            <a href="servico.html" class="conteudo-dois-a">SAIBA MAIS ></a>
+          </div>
+        </div>
+        <div class="conteudo-dois-tres">
+          <div class="row justify-content-evenly flex-wrap-wrap">
+            <div class="col-sm-4 ">
+              <h2 class="conteudo-dois-titulo  ">Objetivo</h2>
+              <p class="conteudo-dois-p">Todo mundo gosta de carregar rapidamente o site que está visitando – mas, infelizmente, essa nem sempre é a experiência que obtemos.
+                Supondo que sua conexão à Internet seja boa, a causa mais provável de um carregamento lento de um site é que ele é composto de mais dados do que seu dispositivo pode processar rapidamente. Esses dados incluirão tudo o que torna o site o que é, seja o conteúdo de texto, folhas de estilo CSS, JavaScript e, sim, imagens e vídeos.
+               
+              </p>
+              <a href="servico.html" class="conteudo-dois-a">SAIBA MAIS ></a>
+            </div>
+            <div class="col-sm-4 ">
+              <h2 class="conteudo-dois-titulo">Atualizações</h2>
+              <p class="conteudo-dois-p"> Implementamos a integração contínua. Nossas ferramentas são atualizadas regularmente, às vezes várias vezes ao dia.
+              </p>
+              <a href="servico.html" class="conteudo-dois-a">SAIBA MAIS ></a>
+            </div>
+          </div>
+  </section>
+  <!--------------------------------FIM SEGUNDO CONTEÚDO--------------------------------->
+
+  <!-------------------------------INICIO FERRAMENTAS CONTEÚDO---------------------------------->
+  <section>
+    <div class="ferramentas-para">
+      <div class="columns my-4">
+        <div class="col">
+          <div class="col-12 col-sm-12">
+            <h2 class="ferramentas-para-h2">Ferramentas personalizadas para quem você é!</h2>
+          </div>
+        </div>
+      </div>
+      <div class="ferramentas-para-conte">
+        <div class="row justify-content-center">
+          <div class="col-sm-3">
+            <div class="ferramenta">
+              <img class="ferramenta-img" src="./img/redimensionar.jpeg" width="230" height="180/" alt="...">
+              <h3 class="ferramentas-para-h">Redimensionar</h3>
+              <p class="ferramentas-para-p">Quer saber como reduzir o tamanho de uma imagem? Com o nosso aplicativo, você ajusta o tamanho de qualquer imagem em alguns minutos. </p>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="ferramenta">
+              <img class="ferramenta-img" src="./img/qualidade.jpeg" width="230" height="180/" alt="...">
+              <h3 class="ferramentas-para-h">Qualidade</h3>
+              <p class="ferramentas-para-p"> A maneira mais simples de cortar dados. Quão baixo você pode ir? Fique de olho nas áreas com detalhes.</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="ferramenta">
+              <img class="ferramenta-img" src="./img/reduzir.jpeg" width="230" height="180/" alt="...">
+              <h3 class="ferramentas-para-h">Cores</h3>
+              <p class="ferramentas-para-p">Sua imagem pode se contentar com menos cores? Geralmente, é uma vitória fácil se estamos falando de gráficos ou ilustrações que 
+                não exigem que milhares de cores sejam exibidas corretamente.</p>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="ferramenta">
+              <img class="ferramenta-img" src="./img/otimizar.jpeg" width="230" height="180/" alt="...">
+              <h3 class="ferramentas-para-h">Otimizar</h3>
+              <p class="ferramentas-para-p">Otimizar suas imagens para web, melhore o desempenho sem perder a qualidade. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ferramenta-botao">
+        <div class="row justify-content-center">
+          <div class="col-sm-4">
+            <a href="servico.html">
+              <button type="submit" data-test="short-free-trial-submit" class="botao" href="servico.html">EXPLORE OS
+                RECURSOS</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-------------------------------FIM FERRAMENTAS CONTEÚDO---------------------------------->
+
+
+  <!-----------------------------------INICIO COLORFRONT------------------------------------>
+  <section class="psico">
+    <div class="cores">
+      <div class="container text-center">
+        <div class="row align-items-start">
+          <div class="col-12 col-sm-7 ">
+            <div class="color-bloco ">
+              <h3 class="ferramentas-para-h2">Lançamento</h3>
+              <h2 class="color">Compact</h2>
+              <p class="conteudo-color-p">Venha conosco enquanto
+                exploramos uma nova ferramenta que pode tornar o processo de compactação mais eficaz
+                e acessível do que nunca: Compact.</p>
+              <p class="conteudo-color-p">Compactar seus arquivos com o nosso aplicativo pode ser excepcionalmente rápido e
+                fácil ou altamente completo e preciso. Isso depende de quanto tempo você está disposto a
+                gastar testando suas configurações. Qualquer que seja a abordagem adotada, o processo é
+                basicamente o mesmo.</p>
+              <p class="conteudo-color-p">Embora exista muito mais na experiência do usuário do que o tamanho da página, não há
+                dúvida de que quanto maior a quantidade de dados que sua página precisar baixar, mais
+                lenta ela será sua transmissão em um dispositivo móvel, usando conexões de dados de
+                rede móvel, que também é mais lenta.
+                
+
+              </p>
+              <p class="conteudo-color-p">Portanto, recomendamos que contrarie essa tendência de crescimento do tamanho da
+                página para oferecer um desempenho mais otimizado para usuários móveis que
+                provavelmente serão o maior público do seu site. 
+                Basta um simples clique para ter acesso a um universo de possibilidades e ferramentas na compactação de imagens.
+              </p>
+              <p class="conteudo-color-p">  Ao reduzir imagens, o consumo de tráfego de dados do seu site será menor, o que contribui para que as páginas carreguem mais rapidamente. Por isso, é importante utilizar um compressor de imagem para otimizar o tamanho dos arquivos que você pretende inserir.
+                Nosso aplicativo determinará inteligentemente a taxa de compressão ideal para cada imagem.
+                
+              </p>
+              <p class="conteudo-color-p">
+                
+                Compacte os arquivos do seu site para garantir um menor tempo de carregamento das páginas e veja a diferença na quantidade de conversões dos usuários.
+                A Compact tem como objetivo entregar o melhor resultado visando usabilidade,
+                performance e segurança. Sempre.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4 ">
+            <div class="img-color">
+              <img src="img/celuedesk1.gif" width="540" height="320">
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-----------------------------------FIM COLORFRONT------------------------------------>
+
+  <!--------------------------------INICIO CHAMADA--------------------------------->
+  <section>
+    <div class="conhecimento">
+      <div class="container text-center">
+        <div class="columns align-items-center">
+          <div class="col-12 col-sm-12">
+            <div class="conteudo-tres">
+              <h2 class="conteudo-tres-rodape text-center"> Tendo conhecimento de todas as suas funcionalidades, venha
+                conhecer nosso produto de lançamento.</h2>
+            </div>
+          </div>
+          <div class="col">
+            <div class="comeceagora">
+              <div class="row  align-items-center ">
+                <div class="col-sm-5">
+                  <h2 class="comeceagora-h2">Pronto para subir de nível?</h2>
+                </div>
+                <div class="col-sm-4">
+                  <div class="input">
+                    <input class="form-input" type="email" name="email" id="inputemail" placeholder="Endereço de e-mail" href="listaEspera.html">
+                  </div>
+                </div>
+                <div class="col-sm-3">
+                  <div class="comeceagora-botao">
+                    <a href="cadastro.html">
+                      <button type="submit" data-test="short-free-trial-submit" class="botao"> LISTA DE ESPERA</button></a>
+                  </div>
+                </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-------------------------------FIM CHAMADA---------------------------------->
+
+  <footer>
+
+
+    <!-------------------------------INICIO RODAPÉ---------------------------------->
+    <footer>
+      <div class="rodape">
+        <div class="card text-center" style="background-color:  #a4acbf9d;">
+          <div class="card-body">
+            <h5 class="card-title text-purple fw-light">Fale Conosco</h5>
+            <h5 class="card-title fw-light" style="color: slateblue;">Email: equipecompact@compact.com</h5>
+              <a class="img-brand" href="index.html">
+                <img src="img/logo.png" width="60" height="60/"> </a>
+          </div>
+          <div class="card-footer text-muted text-white">
+            <h6>Equipe Compact 2022</h6>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!------------------------------------FIM RODAPÉ----------------------------------->
+
+    <script src="jquery-3.1.1.min.js" type="text/javascript"></script>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script src="js/init-vlibras.js"></script>
+    <script src="js/home-script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/contrast.class.js"></script>
+    <script src="js/default.js"></script>
+
+
+</body>
+
+</html>

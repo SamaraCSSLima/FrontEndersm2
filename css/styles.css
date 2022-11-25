@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Encode+Sans+Condensed&family=Josefin+Sans:wght@200;400&display=swap');
+
+/*font-family: 'DM Serif Display', serif;
+font-family: 'Encode Sans Condensed', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Encode+Sans+Condensed&family=Josefin+Sans:wght@200;400&display=swap");
+
+/* geral */
+.nav-link:hover {
+  background-color: #8f8f8f;
+  
+}
+.nav-link:hover{        /*Mudança de cor botão cabeçalho*/
+  background-color: #a4acbf9d;
+}
+
+.navbar-brand{  /*Margem logo*/
+  padding-left: 25px;
+
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+.header .navbar a:hover {
+  color: var(--main-color);
+  border-bottom: 0.1rem solid var(--main-color);
+  padding-bottom: 0.5rem;
+}
+
+.rodape {
+  /*Margem rodapé*/
+  margin-top: 30px;
+ text-align: center;
+}
+
+.navbar-brand {
+  /*Margem logo*/
+  padding-left: 50px;
+}
+
+input,
+label {
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+a {
+  color: mediumpurple;
+}
+
+body {
+  padding-top: 5vh;
+  background-color: #fff;
+
+  
+}
+
+/* form */
+#main-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  background-color: #a4acbf9d;
+  border-radius: 10px;
+  padding: 25px;
+ 
+
+}
+
+#main-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-box {
+  flex: 1 1 100%;
+  position: relative;
+}
+
+.half-box {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.spacing {
+  margin-right: 2.5%;
+}
+
+label {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 40px;
+}
+
+input:focus {
+  border-color: mediumpurple;
+}
+
+input[type="submit"] {
+  background-color: mediumpurple;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#agreement {
+  margin-right: 5px;
+}
+
+#agreement,
+#agreement-label {
+  display: inline-block;
+  width: auto;
+}
+
+.error-validation {
+  color: #ff1a1a;
+  position: absolute;
+  top: 57px;
+  font-size: 12px;
+}
+
+.template {
+  display: none;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+
+background-color: white;
+
+
+background-size: 600px;
+top: 1000px;
+
+
+
+}
+
+section.gradient{
+
+
+opacity:0.9;
+font-size: 90%;
+color:white;
+text-align: left 15px;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.form-control:focus{
+
+
+shape-margin: 15px;
+background-color: white;
+border-inline-end-style:dashed;
+color:black;
+border-color:green; 
+
+
+
+}
+
+.form-control{
+
+
+  shape-margin: 15px;
+  background-color: white;
+  border-inline-end-style:dashed;
+  color:black;
+  border-style:ridge; 
+  
+  
+  
+  
+  }
+
+.form {
+  
+ 
+  border-radius: 50px;
+  border-style: hidden;
+  background-color: lightgreen;
+  text-align: center;
+  font-size: 13px;
+  
+  
+ 
+}
+
+.cep{
+
+  font-size: 13px;
+  font-style:initial;
+  font-weight: bold;
+  
+}
+
